@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    margin-left:41rem;
+    margin-top: 10px;
+    color: brown;
+    transition: margin-left 2s ease-in-out, color 0.5s ease-in;
+}
+.heading:hover{
+    margin-left: 45rem;
+    color: rgb(118, 230, 211);
+}
+ 
+
+.glry{
+    width:54%;
+    height: 74vh;
+    margin-left: 22rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    background-color: rgb(137, 152, 179);
+    overflow: hidden;
+    padding: 3px 3px 3px 3px;
+    position:fixed;
+}
+
+img{
+    width:236px;
+    height:330px;
+}
+
+.card{
+    cursor: grab;
+    user-select: none;
+    border-radius: 5px;
+    border:2px solid rgb(46, 46, 46);
+}
+
+.text{
+    border-radius: 5px;
+    color: grey;
+    background-color: blanchedalmond;
+    margin-left: 4px;
+}
+
+.phara{
+    margin-top: 10px;
+    margin-left: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+}
+
+.left-scroller{
+    margin-left: 19.5rem;
+    margin-top: 15.5rem;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.right-scroller{
+   margin-left: 69rem;
+   float:right;
+   /* float: inline-end; */
+   margin-right: 14.2rem;
+   border-radius: 5px;
+   border: 2px solid black;
+   background-color: blanchedalmond;
+   cursor: pointer;
+} 
